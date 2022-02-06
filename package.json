@@ -1,0 +1,19 @@
+{
+  "name": "learing-webpack",
+  "version": "1.0.0",
+  "description": "Learing webpack",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack",
+    "prod": "npm run webpack -- --mode production",
+    "dev": "npm run webpack -- --mode development --watch"
+  },
+  "author": "Praveen",
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^5.68.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.9.2"
+  }
+}
